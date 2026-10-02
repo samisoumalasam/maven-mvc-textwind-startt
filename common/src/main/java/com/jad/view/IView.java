@@ -4,4 +4,7 @@ import com.jad.controller.IController;
 
 public interface IView {
     void setController(IController controller);
+    void displayMessage(String message);
+
+    void displayScreen();
 }
